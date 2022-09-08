@@ -1,10 +1,11 @@
+#include <stdio.h>
 /**
  *
- * * main - Printing in C programming
+ * * main - Printing
  *
  * *
  *
- * * Return: Always 0 (It was Successful)
+ * * Return: Always 0 (Successful)
  *
  * */
 

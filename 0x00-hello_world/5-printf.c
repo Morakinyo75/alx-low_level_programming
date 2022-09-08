@@ -1,14 +1,11 @@
 #include <stdio.h>
-
-
-
 /**
  *
- * * main - Printing a text
+ * * main - Prints a text
  *
  * *
  *
- * * Return: Always 0 (It was a Success)
+ * * Return: Always 0 (Success)
  *
  * */
 
