@@ -7,7 +7,6 @@
  */
 
 int main(void)
-
 {
 
 	char c;
@@ -27,9 +26,7 @@ int main(void)
 
 	}
 
-
 		putchar('\n');
 
 		return (0);
-
 }
