@@ -1,19 +1,21 @@
 #include <stdio.h>
 /**
- * main - print if the number is postive, zero, or negative
+ * m - print if the number is postive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
- * Return: 0
+ * this program prints "Programming is positive, zero, or negative *
+ * Return: Always (Success)
  */
 int main(void)
 {
-	char c;
-	
-	for (c = 'z'; c >= 'a'; c--)
-	{
-		putchar(c);
-	}
+    char c;
+
+    for (c = 'z'; c >= 'a'; c--)
+    {
+            putchar(c);
+    }
+
 	putchar('\n');
+
 	return (0);
 }
