@@ -3,7 +3,7 @@
  * main - print possible combination of two 2-digit numbers
  * Return: Always 9 (Successful)
  */
- int main(void)
+int main(void)
 {
 	int i, t;
 
