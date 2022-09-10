@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - Prints the alphabet at reverse
- *
+ * Description: using the main function
+ * this code prints "Programme is postive, zero or negative
  * Return: Always (Success)
  */
 int main(void)
@@ -14,5 +15,6 @@ int main(void)
     }
 
 	putchar('\n');
+
 	return (0);
 }
