@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - print possible combination of two 2-digit numbers
  * Return: Always 9 (Successful)
