@@ -8,12 +8,12 @@
 	int i, t;
 	for (i = 0; i < 100; i++)
 	{
-		for (t = 0; t < 100; j++)
+		for (t = 0; t < 100; t++)
 		{
 			if (t > i)
 			{
 				putchar((i / 10) + 48);
-				putchar((i %/ 10) + 48);
+				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((t / 10) + 48);
 				putchar((t % 10) + 48);
