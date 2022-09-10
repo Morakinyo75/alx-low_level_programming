@@ -6,6 +6,7 @@
  int main(void)
 {
 	int i, t;
+
 	for (i = 0; i < 100; i++)
 	{
 		for (t = 0; t < 100; t++)
@@ -17,7 +18,7 @@
 				putchar(' ');
 				putchar((t / 10) + 48);
 				putchar((t % 10) + 48);
-				if (i != 98 || t !=99)
+				if (i != 98 || t != 99)
 				{
 					putchar(',');
 					putchar(' ');
