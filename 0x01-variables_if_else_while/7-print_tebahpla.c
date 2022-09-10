@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
- * m - print if the number is postive, zero, or negative
+ * main - Prints the alphabet at reverse
  *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative *
  * Return: Always (Success)
  */
 int main(void)
@@ -16,6 +14,5 @@ int main(void)
     }
 
 	putchar('\n');
-
 	return (0);
 }
