@@ -7,10 +7,11 @@
  */
 int main(void)
 {
-	char c;	
-	for (c = 'a' ; c <= 'z' ; c++)
+	char ch;
+
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (c != 'e' && c != 'q')
+		if (c != 'e' && ch != 'q')
 		{
 			putchar(ch);
 		}
