@@ -14,9 +14,11 @@ void print_times_table(int n)
 	{
 		for (a = 0; a <= n; a++)
 		{
-			for (b = 0; b<= n; b++)
+			for (b = 0; b <= n; b++)
 			{
-				c = a * b; d = c / 100; e = (c / 10) % 10;
+				c = a * b;
+				d = c / 100;
+				e = (c / 10) % 10;
 				f = (c % 100) % 10;
 				if (b == 0)
 				{
