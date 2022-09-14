@@ -1,7 +1,6 @@
 #include "main.h"
 /** 
- * main - Prints the first 98 Fibonacci numbers, starting with 
- * 1 and 2, separated by a comma followed by a space. 
+ * main - Prints the first 98 Fibonacci numbers separated by a comma
  * Return: Always 0. 
  */
 int main(void)
@@ -15,6 +14,7 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 		printf("%lu, ", sum);
+
 		fib1 = fib2;
 		fib2 = sum;
 	}
@@ -41,6 +41,7 @@ int main(void)
 		fib2_half1 = half1;
 		fib2_half2 = half2;
 	}
+	
 	printf('\n')
 		return (0)
 }
