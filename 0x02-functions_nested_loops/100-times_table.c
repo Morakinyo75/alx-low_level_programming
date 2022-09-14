@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+<<<<<<< HEAD
  * print_times_table - prints the  times table with
  * parameter
  * @n: parameter
@@ -40,8 +41,7 @@ void print_times_table(int n)
 					_putchar((result / 10) + '0');
 				}
 				_putchar((result % 10) + '0');
-			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
