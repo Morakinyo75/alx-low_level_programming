@@ -4,7 +4,7 @@
  *
  * @s: string to be reversed
  */
-void rev_string(cha *s)
+void rev_string(char *s)
 {
 	int length, i, j;
 
@@ -27,4 +27,5 @@ void rev_string(cha *s)
 		j--;
 		i++;
 	}
+	putchar(10);
 }
