@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
+ * _puts - print a string
  * @str: string to be printed
+ *
  * Description: print a string
  * On success: return no error
  */
