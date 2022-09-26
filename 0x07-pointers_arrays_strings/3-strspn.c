@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * strspn - gets length of prefix substring
  * @s: string to check
