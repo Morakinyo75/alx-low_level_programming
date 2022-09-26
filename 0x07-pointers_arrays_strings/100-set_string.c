@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * see_string - sets the value of pointer to char
+ * set_string - sets the value of pointer to char
  * @s: pointer to change
  * @to: string to change pointer to
  *
