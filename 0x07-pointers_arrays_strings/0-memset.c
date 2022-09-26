@@ -1,10 +1,10 @@
 #include "main.h"
 
- /**
-  * _memset - fill the memory with a constant byte
-  * @n: index
-  * @s: pointers to char
-  * @b: data to be replaced
+/**
+  * _memset - iromnnou
+  * @s: pointers to char parameter
+  * @b: data to change
+  * @n: index
   * Return: *s
   */
 
