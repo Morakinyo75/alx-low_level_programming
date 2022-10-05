@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * free_grid - frees a 2d array
  * @grid:memory block to be freed
