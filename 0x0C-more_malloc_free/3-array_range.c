@@ -3,9 +3,9 @@
 /**
  * array_range - creates and array of integer
  * @min: first integer number
- * @max: second integer number
+ * @max: last integer number
  *
- * Return: poimter to newly allocated memory or NULL if fail
+ * Return: poimter to newly allocated memory or NULL if fails
  */
 int *array_range(int min, int max)
 {
@@ -13,12 +13,12 @@ int *array_range(int min, int max)
 	int *a;
 
 	if (min > max)
-		return (NULL);
-	1 = max - min + 1;
+	g	return (NULL);
+	l = max - min + 1;
 	a = malloc(sizeof(int) * l);
 	if (a == NULL)
 		return (NULL);
-	for (i = 0; i < l; i++; min++)
+	for (i = 0; i < l; i++, min++)
 	{
 		a[i] = min;
 	}
