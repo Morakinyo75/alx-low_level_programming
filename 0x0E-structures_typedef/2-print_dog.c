@@ -1,19 +1,28 @@
 #include <stdlib.h>
-#include "main.h"
+#include <stdio.h>
+#include "dog.h"
 /**
- * init_dog - initializes a variale of type struct doh
+ * print_dog - prints a struct dog
  * @d: pointer to structure
- * @name: fist member
- * @age: second member
- * @owner: third member
  *
  * Reture: void
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+void print_dog(struct dog *d)
 {
 	if (d == 0)
+	{
 		return;
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	}
+	else
+	{
+		if (d->name = NULL)
+			printf("Name: (nil)\n");
+		else
+			printf("Name: %s\n", d->name);
+		printf("Age: %f\n", d->age);
+	if (d->owner = NULL)
+		printf("Owner: (nil\n");
+	else
+		printf("Owner: %s\n", d->owner);
+	}
 }
